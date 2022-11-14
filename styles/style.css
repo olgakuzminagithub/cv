@@ -1,0 +1,43 @@
+body {
+    background-color: #d9d9d9;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: white;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.17em;
+    background-color:#b7b7b7;
+    text-transform: uppercase;
+    color: white;
+}
+p {
+    width: 100%;
+    text-align: center;
+}
+ul.list-none-dote li {
+    list-style-type: none;
+}
+.photo-container {
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    overflow: hidden;
+}
+.photo-container img {
+    width: 200px;
+    height: auto;
+} 
